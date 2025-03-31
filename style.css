@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #title {
+            font-size: 28px;
+        }
+
+        .Hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .Hobby1 {
+            background-color: white;
+            border: 2px solid #0073e6;
+            padding: 20px;
+            width: 300px;
+            text-align: bottom;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            height: 200px; 
+        }
+
+        #reading {
+            background-image: url('image/pexels-thought-catalog-317580-904616.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-color: white; 
+            color: rgb(3, 3, 3);
+        }
+
+        #animie {
+            background-image: url('image/pexels-jovanvasiljevic-20750999.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-color: white; 
+            color: rgb(3, 3, 3);
+        }
+
+        #cooking {
+            background-image: url('image/pexels-kristina-snowasp-81019562-9986235.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-color: white; 
+            color: rgb(3, 3, 3);
+        }
+
+        .Hobby1 h3 {
+            color: #e71655;
+        }
+
+        .about {
+            text-align: center;
+            padding: 30px;
+            background-color: white;
+            margin: 20px auto;
+            font-family: "Merienda", cursive;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 25px;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #0073e6;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0073e6;
+            color: white;
+            margin-top: 20px;
+        }
